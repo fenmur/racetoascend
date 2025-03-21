@@ -1,0 +1,45 @@
+body {
+    background-color: #172358;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header {
+
+    color: c5f1fc;
+    padding: 15px;
+    text-align: center;
+}
+
+header .logo img {
+
+    height:200px;
+    width:auto;
+}
+
+nav ul {
+
+    list-style: none;
+    margin: 50px;;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    background-color: #9738bb;
+    border-radius: 10px;
+}
+
+nav ul li {
+
+    margin: 0 20px;
+    padding: 10px;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 30px;
+}
+
+nav ul li a {
+
+    color:aliceblue;
+    font-size: 30px;
+    
+}

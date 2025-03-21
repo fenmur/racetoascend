@@ -26,20 +26,22 @@ nav ul {
     display:flex;
     justify-content: center;
     background-color: #9738bb;
+    border-radius: 10px;
 }
 
 nav ul li {
 
-    margin: 0 10px;
+    margin: 0 20px;
     padding: 10px;
     font-family: "Jersey 10", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 nav ul li a {
 
     color:aliceblue;
-    font-size: 20px;
+    font-size: 30px;
+    
 }
 
 #characters {
@@ -66,6 +68,9 @@ nav ul li a {
     border: 10px solid #9755ef;
     border-radius: 5px;
     padding: 20px;
+    display:flex;
+    align-items:center;
+
 }
 
 .bio-card h2 {
@@ -76,16 +81,17 @@ nav ul li a {
     font-size: 30px;
     margin-bottom: 10px;
     text-align: center;
+    width: 100%;
 }
 
 .character-image {
 
-    width: 300px;
+    width: 400px;
     height: auto;
     margin-right: 20px;
     margin-top: 10px;
-    border-radius: 5px;
-
+    border-radius: 10px;
+   
 }
 
 .bio-text {
@@ -98,4 +104,13 @@ nav ul li a {
     padding-left: 20px;
     max-width: 700px;
     margin-top: 10px;
+}
+
+.bio-text i {
+
+    font-family: "Jersey 15", sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+
 }
