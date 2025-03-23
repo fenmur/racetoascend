@@ -1,3 +1,97 @@
+@media (max-width: 768px) {
+
+    nav ul {
+
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+
+        margin: 5px 0;
+        font-size: 24px;
+    }
+
+    nav ul li a { 
+        font-size: 16px;
+        padding: 8px 15px;
+
+    }
+
+    header  {
+
+        padding: 10px;
+    }
+
+    header .logo img {
+
+        height: 250px;
+        max-width: 80%;
+        width: auto;
+    }
+
+
+    main {
+
+        padding:20px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #history, #assistants {
+
+        padding: 20px;
+    }
+
+    #history h1 {
+
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #history h2 {
+
+        font-size: 25px;
+
+    }
+     
+    #history p {
+
+        font-size: 14px;
+        line-height: 1.4;
+        padding-left: 10px;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    #assistants h2 {
+
+        font-size: 25px;
+    }
+
+    #assistants-note {
+
+        font-size: 16px;
+        line-height: 1.4;
+        padding-left: 10px;
+        margin-top: 10px;
+
+    }
+
+    .report-header {
+
+        font-size: 18px;
+        padding-left:10px;
+    }
+
+    }
+
+
+
+
 body {
     background-color: #172358;
     margin: 0;
@@ -15,6 +109,8 @@ header .logo img {
 
     height:350px;
     width:auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 nav ul {
@@ -74,7 +170,7 @@ main {
 
 #history, #assistants {
 
-    background-color:  #284d9d;
+    background-color:  #102146;
     width: 100%;
     margin-bottom: 40px;
     max-width: 100%;
