@@ -6,43 +6,64 @@ body {
 }
 
 header {
-
-    color: #c5f1fc;
+    background: linear-gradient(90deg, rgba(104,19,113,1) 13%, rgb(16, 39, 77) 51%, rgba(104,19,113,1) 97%);
     padding: 15px;
     text-align: center;
 }
 
 header .logo img {
 
-    height:200px;
+    height:350px;
     width:auto;
 }
 
 nav ul {
 
     list-style: none;
-    margin: 50px; 
+    margin: 50px;
     padding: 20px;
     display:flex;
     justify-content: center;
-    background-color: #9738bb;
+    background-color: rgba(211, 27, 211, 0.40);
+    backdrop-filter: blur(15px);
     border-radius: 10px;
 }
 
 nav ul li {
 
-    margin: 0 20px;
-    padding: 10px;
+    display: inline-block;
+    margin: 10px 0;
     font-family: "Jersey 10", sans-serif;
     font-size: 30px;
 }
 
 nav ul li a {
 
-    color:aliceblue;
-    font-size: 30px;
-    
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #e8ecec;
+    margin: 0 10px;
+    padding: 10px 25px;
+    position: relative;
+    transition: 0.25 ease-in-out; 
 }
+
+nav ul li a:hover {
+
+    background: #9755ef;
+    box-shadow: 
+        0 00 10px #9755ef,
+        0 00 20px #9755ef,
+        0 00 40px #9755ef,
+        0 00 80px #9755ef,
+        0 00 100px #9755ef;
+    transition: 0.25 ease-in-out;
+
+}
+
 
 main {
 
@@ -90,8 +111,8 @@ main {
 #history p { 
 
     color:aliceblue;
-    font-family: "Source Sans", sans-serif;
-    font-size: 15px;
+    font-family: "Monda", sans-serif;
+    font-size: 16px;
     line-height: 1.5;
     flex-grow: 1;
     padding-left: 20px;
@@ -100,6 +121,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 
 }
 

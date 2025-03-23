@@ -40,3 +40,50 @@ body {
     height: auto;
 
 }
+
+nav ul {
+
+    list-style: none;
+    margin: 50px;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    background-color: rgba(211, 27, 211, 0.40);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    margin: 10px 0;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 30px;
+}
+
+nav ul li a {
+
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #e8ecec;
+    margin: 0 10px;
+    padding: 10px 25px;
+    position: relative;
+    transition: 0.25 ease-in-out; 
+}
+
+nav ul li a:hover {
+
+    background: #9755ef;
+    box-shadow: 
+        0 00 10px #9755ef,
+        0 00 20px #9755ef,
+        0 00 40px #9755ef,
+        0 00 80px #9755ef,
+        0 00 100px #9755ef;
+    transition: 0.25 ease-in-out;
+
+}
