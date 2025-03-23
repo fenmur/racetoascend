@@ -7,7 +7,7 @@ body {
 
 header {
 
-    color: c5f1fc;
+    color: #c5f1fc;
     padding: 15px;
     text-align: center;
 }
@@ -21,7 +21,7 @@ header .logo img {
 nav ul {
 
     list-style: none;
-    margin: 50px;;
+    margin: 50px; 
     padding: 20px;
     display:flex;
     justify-content: center;
@@ -46,21 +46,23 @@ nav ul li a {
 
 main {
 
-    padding: 40px;
-    max-width: 900px;
-    margin: 0 auto;
+    padding: 60px;
+    max-width: 1000px;
+    margin:  auto;
 }
 
 #history, #assistants {
 
     background-color:  #284d9d;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+    max-width: 100%;
     border: 10px solid #9755ef;
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     
 
 }
@@ -97,7 +99,7 @@ main {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -130,7 +132,7 @@ main {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
     
 }
 

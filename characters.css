@@ -76,7 +76,7 @@ nav ul li a {
 
 }
 
-.bio-card h2 {
+.bio-card h2, h1 {
 
     color:aqua;
     font-family: "Pixelify Sans", sans-serif;
