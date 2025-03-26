@@ -1,5 +1,11 @@
 @media (max-width: 768px) {
 
+    body {
+
+        background-size: contain;
+        background-position: center top;
+    }
+
     nav ul {
 
         padding: 10px;
@@ -92,12 +98,19 @@
 
 
 
-body {
-    background-color: #172358;
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-}
+    body {
+        background-color: #172358;
+        background-image: url('images/back2.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        min-height: 100vh;
+    }
+
 
 header {
     background: linear-gradient(90deg, rgba(104,19,113,1) 13%, rgb(16, 39, 77) 51%, rgba(104,19,113,1) 97%);
@@ -170,12 +183,16 @@ main {
 
 #history, #assistants {
 
-    background-color:  #102146;
+    background-color: rgba(16, 33, 70, 0.3);
+    backdrop-filter: blur(15px);
     width: 100%;
     margin-bottom: 40px;
     max-width: 100%;
     border: 10px solid #9755ef;
     border-radius: 5px;
+    box-shadow: 
+        0 0 10px #9755ef,
+        0 0 20px #9755ef;
     padding: 30px;
     display:flex;
     flex-direction: column;
@@ -263,4 +280,14 @@ main {
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
+}
+
+.section-image {
+
+    display: block;
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+
 }
