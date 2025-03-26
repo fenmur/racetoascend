@@ -67,6 +67,13 @@
         margin: 0 20px;
      }
 
+     #about img {
+
+        width: 80%;
+        max-width: 300px;
+        margin: 10px;
+     }
+
      #features img {
 
         width: 80%;
