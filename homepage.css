@@ -130,3 +130,116 @@ nav ul li a:hover {
     transition: 0.25 ease-in-out;
 
 }
+
+main {
+
+    padding: 60px;
+    max-width: 1000px;
+    margin:  auto;
+}
+
+#about, #features, #download{
+
+    background-color: rgba(16, 33, 70, 0.3);
+    backdrop-filter: blur(15px);
+    width: 100%;
+    margin-bottom: 40px;
+    max-width: 100%;
+    border: 10px solid #9755ef;
+    border-radius: 5px;
+    box-shadow: 
+        0 0 10px #9755ef,
+        0 0 20px #9755ef;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#about h2, #features h2, #download h2{
+
+    text-align:center;
+    color:aliceblue;
+    font-family: "Jersey 15", sans-serif;;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#about p, #features p, #download p{ 
+
+    color:aliceblue;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    flex-grow: 1;
+    padding-left: 20px;
+    max-width: 700px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+
+}
+
+ .feature-image {
+
+    width: 100%;
+    max-width: 600px;
+    display: inline-block;
+    margin: 15px auto;
+ }
+
+ .download-button {
+
+    background-color: rgba(211, 27, 211, 0.40);
+    color: white;
+    padding: 15px 20px;
+    width: 100px;
+    font-size: 20px;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px auto;
+    
+ }
+
+ .download-button:hover {
+
+        background: #9755ef;
+        box-shadow: 
+            0 00 10px #9755ef,
+            0 00 20px #9755ef,
+            0 00 40px #9755ef,
+            0 00 80px #9755ef,
+            0 00 100px #9755ef;
+        transition: 0.25 ease-in-out;
+ }
+
+ footer {
+
+    background: linear-gradient(90deg, rgba(104,19,113,1) 13%, rgb(16, 39, 77) 51%, rgba(104,19,113,1) 97%);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ footer p {
+
+    color:#fefefe;
+    font-size: 16px;
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+ }
+
+ footer img {
+
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+
+
+ }
