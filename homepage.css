@@ -75,6 +75,7 @@
         width: 80%;
         max-width: 300px;
         margin: 10px;
+        align-items: center;
      }
 
      #features img {
@@ -82,6 +83,7 @@
         width: 80%;
         max-width: 500px;
         margin: 10px;
+        align-items: center;
      }
     
      .download-button {
@@ -162,6 +164,8 @@ body {
     width: 900px;
     height: auto;
 
+
+
 }
 
 nav ul {
@@ -174,6 +178,7 @@ nav ul {
     background-color: rgba(211, 27, 211, 0.40);
     backdrop-filter: blur(15px);
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -210,6 +215,7 @@ nav ul li a:hover {
     transition: 0.25 ease-in-out;
 
 }
+
 
 main {
 
