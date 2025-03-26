@@ -2,7 +2,7 @@
 @media (max-width: 768px) {
 
     body {
-
+        overflow-x: hidden;
         background-size: contain;
         background-position: center top;
     }
@@ -62,9 +62,11 @@
     }
 
     footer {
-
+        background: linear-gradient(90deg, rgba(104,19,113,1) 13%, rgb(16, 39, 77) 51%, rgba(104,19,113,1) 97%);
+        width: 100%;
         text-align: center;
         padding: 20px;
+        box-sizing: auto;
      }
 
      footer img {
@@ -76,10 +78,13 @@
      footer p {
 
         font-size: 14px;
+        margin: 0;
+        max-width: 100;
+        padding: 0 10px;
      }
-    
+     
+    }
 
-}
 
 body {
     background-color: #172358;
