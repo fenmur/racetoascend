@@ -26,11 +26,81 @@
 
     }
 
-    header  {
+    #hero {
+
+        text-align: center;
+        padding: 20px;
+    }
+
+    #hero img {
+
+        width: 80%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+     #hero h1 {
+
+        font-size: 24px;
+        margin: 10px 0;
+     }
+
+     #hero p {
+
+        font-size: 16px;
+     }
+   
+     main {
 
         padding: 10px;
-    }
-}
+     }
+
+     #about h2, #features h2, #download h2 {
+
+        font-size: 22px;
+        margin-bottom: 10px;
+     }
+
+     #about p, #features p, #download p {
+
+        font-size: 16px;
+        margin: 0 20px;
+     }
+
+     #features img {
+
+        width: 80%;
+        max-width: 300px;
+        margin: 10px;
+     }
+    
+     .download-button {
+      
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 10px;
+        display: inline-block;
+     }
+     
+     footer {
+
+        text-align: center;
+        padding: 20px;
+     }
+
+     footer img {
+
+        width: 100px;
+        margin-bottom: 10px;
+     }
+
+     footer p {
+
+        font-size: 14px;
+     }
+
+     }
+
 
 
 
