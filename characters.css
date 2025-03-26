@@ -172,13 +172,9 @@ nav ul li a:hover {
     border-radius: 5px;
     padding: 20px;
     display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
-    position: relative;
-
-    box-shadow: 
-        0 0 10px #9755ef,
-        0 0 20px #9755ef;
-
 }
 
 
@@ -196,11 +192,12 @@ nav ul li a:hover {
 
 .character-image {
 
-    width: 600px;
+    width: 400px;
     height: auto;
     margin-right: 20px;
     margin-top: 10px;
     border-radius: 10px;
+    max-width: 100%;
    
 }
 
