@@ -1,11 +1,14 @@
 @media (max-width: 768px) {
     
-    html, body {
-        overflow-x: hidden;
+    *{
+        box-sizing: border-box;
         margin: 0;
         padding: 0;
+    }
+
+    html, body {
+        overflow-x: hidden;
         width: 100%;
-        box-sizing: border-box;
        }
 
 
@@ -13,9 +16,10 @@
     nav ul {
 
         padding: 10px;
-        margin: 20px;
+        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     nav ul li {
@@ -32,14 +36,15 @@
     
 
     #hero {
-
+        height: auto;
         text-align: center;
         padding: 20px;
+        text-align: center;
     }
 
     #hero img {
 
-        width: 80%;
+        width: 100%;
         max-width: 300px;
         margin-bottom: 20px;
     }
@@ -60,22 +65,30 @@
         padding: 10px;
      }
 
+     #about, #features, #download {
+        width: 95%;
+        padding: 10px;
+        margin: 0 auto;
+     }
+
      #about h2, #features h2, #download h2 {
 
-        font-size: 22px;
-        margin-bottom: 10px;
+        font-size: 24px;
+        margin-bottom: 15px;
      }
 
      #about p, #features p, #download p {
 
         font-size: 15px;
-        max-width: 90%;
+        max-width: 100%;
         padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
      }
 
      #about img {
 
-        width: 80%;
+        width: 100%;
         max-width: 300px;
         margin: 10px;
         align-items: center;
@@ -93,30 +106,42 @@
       
         font-size: 16px;
         padding: 10px 20px;
-        margin-top: 10px;
-        display: inline-block;
+        display: block;
+        width: auto;
+        min-width: 120px;
+        margin: 10px auto;
+        text-align: center;
+        overflow: hidden;
+
      }
      
      footer {
         background: linear-gradient(90deg, rgba(104,19,113,1) 13%, rgb(16, 39, 77) 51%, rgba(104,19,113,1) 97%);
         width: 100%;
+        max-width: 100%;
         text-align: center;
-        padding: 20px;
-        box-sizing: auto;
+        padding: 20px 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
      }
 
      footer img {
 
-        width: 100px;
-        margin-bottom: 10px;
+        max-width: 100%;
+        height: auto;
      }
 
      footer p {
 
-        font-size: 14px;
-        margin: 0;
-        max-width: 100;
+        font-size: 15px;
+        margin: 10px 0 0 0;
+        max-width: 90%;
         padding: 0 10px;
+        text-align: center;
+        word-wrap: break-word;
      }
 
      }
@@ -334,6 +359,4 @@ main {
     width: auto;
     max-width: 100%;
     max-height: 100%;
-
-
  }
