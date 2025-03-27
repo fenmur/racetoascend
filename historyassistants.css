@@ -45,7 +45,6 @@
         width: auto;
     }
 
-
     main {
 
         padding:20px;
@@ -166,7 +165,7 @@ header {
 header .logo img {
 
     height: 200px;
-    width:auto;
+    width: auto;
     max-width: 100%;
     max-height: 100%;
 }
