@@ -1,10 +1,14 @@
 @media (max-width: 768px) {
+    
+   html, body {
+    overflow-x: hidden;
+  }
 
-    body {
-
-        background-size: contain;
-        background-position: center top;
-    }
+   body {
+       position:relative;
+       background-size: contain;
+       background-position: center top;
+   }
 
 
     nav ul {
