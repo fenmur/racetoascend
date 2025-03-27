@@ -162,6 +162,13 @@ body {
     min-height: 100vh;
 }
 
+header  {
+
+    padding: 10px;
+
+}
+
+
 #hero {
 
     background-color: black;
@@ -174,6 +181,7 @@ body {
     position: relative;
 
 }
+
 
 #hero h1 {
 

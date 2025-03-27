@@ -41,10 +41,11 @@
 
     header .logo img {
 
-        height: 250px;
+        height: 50px;
         max-width: 80%;
         width: auto;
     }
+
 
     .bio-card {
 
