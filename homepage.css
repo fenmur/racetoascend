@@ -65,6 +65,7 @@
      }
 
      #about, #features, #download {
+
         width: 95%;
         padding: 10px;
         margin: 0 auto;
@@ -160,6 +161,7 @@ body {
     box-sizing:border-box;
     min-height: 100vh;
 }
+
 #hero {
 
     background-color: black;
@@ -184,6 +186,7 @@ body {
 }
 
 #hero p {
+    
     font-size: 20px;
     margin-top: 10px;
     font-family: "Pixelify Sans", sans-serif;
