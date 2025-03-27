@@ -13,13 +13,12 @@
 
 
 
-    nav ul {
+       nav ul {
 
         padding: 10px;
-        margin: 0 auto;
+        margin: 20px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
     }
 
     nav ul li {
@@ -33,7 +32,7 @@
         padding: 8px 15px;
 
     }
-    
+
 
     #hero {
         height: auto;
@@ -45,7 +44,7 @@
     #hero img {
 
         width: 100%;
-        max-width: 300px;
+        max-width: 400px;
         margin-bottom: 20px;
     }
 
