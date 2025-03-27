@@ -1,8 +1,12 @@
 
 @media (max-width: 768px) {
 
+   html, body {
+     overflow-x: hidden;
+   }
+
     body {
-        overflow-x: hidden;
+        position:relative;
         background-size: contain;
         background-position: center top;
     }
