@@ -240,7 +240,7 @@ main {
     padding: 30px;
     display:flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     
 
 }
@@ -329,7 +329,7 @@ main {
 .section-image {
 
     display: block;
-    width: 50%;
+    width: 80%;
     max-width: 600px;
     height: auto;
     margin: 20px auto;

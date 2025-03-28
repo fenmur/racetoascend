@@ -164,7 +164,7 @@ body {
 
 header  {
 
-    padding: auto;
+    padding: 10px;
 
 }
 
@@ -242,7 +242,7 @@ nav ul li a {
     margin: 0 10px;
     padding: 10px 25px;
     position: relative;
-    transition: 0.25 ease-in-out; 
+    transition: 0.25s ease-in-out; 
 }
 
 nav ul li a:hover {
@@ -254,7 +254,7 @@ nav ul li a:hover {
         0 00 40px #9755ef,
         0 00 80px #9755ef,
         0 00 100px #9755ef;
-    transition: 0.25 ease-in-out;
+    transition: 0.25s ease-in-out;
 
 }
 
@@ -276,12 +276,13 @@ main {
     border: 10px solid #9755ef;
     border-radius: 5px;
     box-shadow: 
-        0 0 10px #9755ef,
-        0 0 20px #9755ef;
+    
+    0 0 10px #9755ef,
+    0 0 20px #9755ef;
     padding: 30px;
     display:flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
 }
 
 #about h2, #features h2, #download h2{
@@ -342,7 +343,7 @@ main {
             0 00 40px #9755ef,
             0 00 80px #9755ef,
             0 00 100px #9755ef;
-        transition: 0.25 ease-in-out;
+        transition: 0.25s ease-in-out;
  }
 
  footer {
